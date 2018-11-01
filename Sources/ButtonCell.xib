@@ -29,7 +29,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="200" verticalHuggingPriority="200" horizontalCompressionResistancePriority="1000" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7f-rk-sQl">
-                                <rect key="frame" x="45" y="0.0" width="126" height="78"/>
+                                <rect key="frame" x="45" y="0.0" width="37.5" height="78"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -44,10 +44,11 @@
             </view>
             <color key="backgroundColor" red="0.027450980390000001" green="0.72549019609999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="hFm-Do-OeN" firstAttribute="leading" secondItem="zg4-fX-zUF" secondAttribute="leading" constant="10" id="If2-FC-NWV"/>
+                <constraint firstItem="hFm-Do-OeN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zg4-fX-zUF" secondAttribute="leading" constant="10" id="If2-FC-NWV"/>
                 <constraint firstItem="hFm-Do-OeN" firstAttribute="top" secondItem="zg4-fX-zUF" secondAttribute="top" constant="8" id="SjJ-oZ-Ku2"/>
-                <constraint firstAttribute="trailing" secondItem="hFm-Do-OeN" secondAttribute="trailing" constant="10" id="ZdN-Qe-Y8E"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hFm-Do-OeN" secondAttribute="trailing" constant="10" id="ZdN-Qe-Y8E"/>
                 <constraint firstAttribute="bottom" secondItem="hFm-Do-OeN" secondAttribute="bottom" constant="8" id="kQT-M9-6gM"/>
+                <constraint firstItem="hFm-Do-OeN" firstAttribute="centerX" secondItem="zg4-fX-zUF" secondAttribute="centerX" id="nSc-ga-A6S"/>
             </constraints>
             <size key="customSize" width="191" height="94"/>
             <connections>
